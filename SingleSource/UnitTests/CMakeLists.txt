@@ -1,15 +1,15 @@
 include(CheckCCompilerFlag)
 
-add_subdirectory(C++11)
-add_subdirectory(Float)
-add_subdirectory(Matrix)
-add_subdirectory(SignlessTypes)
-add_subdirectory(Threads)
+# add_subdirectory(C++11)
+# add_subdirectory(Float)
+# add_subdirectory(Matrix)
+# add_subdirectory(SignlessTypes)
+# add_subdirectory(Threads)
 add_subdirectory(Vector)
 add_subdirectory(Vectorizer)
-add_subdirectory(HashRecognize)
-add_subdirectory(X86)
-add_subdirectory(AArch64)
+# add_subdirectory(HashRecognize)
+# add_subdirectory(X86)
+# add_subdirectory(AArch64)
 
 list(APPEND CFLAGS -Wno-implicit-function-declaration -Wno-implicit-int)
 
